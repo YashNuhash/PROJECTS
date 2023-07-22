@@ -1,0 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Inter:wght@400;600&family=Manrope:wght@300&family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-weight:550;
+}
+
+.container{
+    background-color: rgb(171, 242, 242);
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow:0 0 80px aquamarine;
+    border-radius: 10px;
+
+}
+
+h1{
+    margin:0;
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    border:2px solid rgb(106, 229, 188);
+    border-radius:5px;
+    margin: 5px;
+    width: 100%;
+}
+
+button{
+    background-color: rgb(190, 250, 230);
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid rgb(153, 224, 224);
+    cursor: pointer;
+    margin:10px 4px;
+    width: 100%;
+    text-transform:uppercase;
+    transition:background-color 0.2s ease;
+
+}
+
+button:hover{
+    background-color: rgb(151, 233, 233);
+}
+
+#total{
+    font-size: 35px;
+    margin-top: px;
+}
